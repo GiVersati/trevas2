@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#button-container {
+    margin-top: 50px;
+}
+
+#click-here {
+    background-color: gray;
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+#letter-container {
+    margin-top: 50px;
+    display: none;
+}
+
+.letter {
+    background-image: url('cartinha.png'); /* Imagem da carta fechada */
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    display: inline-block;
+    cursor: pointer;
+    border: 2px solid #444;
+    width: 350px;
+    height: 250px;
+    position: relative;
+    border-radius: 10px;
+}
+
+#text-box-container {
+    margin-top: 20px;
+    display: none; /* Inicialmente oculta */
+}
+
+#text-box {
+    width: 80%;
+    font-size: 16px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    resize: vertical;
+    min-height: 250px; /* Ajuste para o tamanho da carta */
+}
